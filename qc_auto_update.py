@@ -9,11 +9,11 @@ from requests.auth import HTTPBasicAuth
 
 #protractor_result_file = './combined_result.json'
 
-almUserName = "vyadalla"
-almPassword = "changeme123"
+almUserName = "Username"
+almPassword = "Password"
 almDomain = "DEFAULT"
-almProject = "shoretel"
-build_id = '21.90.9700.0'
+almProject = "Project_name"
+build_id = 'build Id to update'
 
 almURL = "http://bill.qa.shoretel.com/qcbin/"
 authEndPoint = almURL + "authentication-point/alm-authenticate"
